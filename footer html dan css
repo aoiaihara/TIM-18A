@@ -1,0 +1,39 @@
+<!-- Membuat footer html-->
+        <div class="container">
+        <div class="footer">
+            <div class="footer logo">THANK YOU</div>
+            <div class="footer list">
+                <ul>
+                    <li>Terimakasih sudah mengunjungi website kami</li>
+                    <li>Progate x Kampus Merdeka</li>
+                    <li>Progate 18A</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        
+        
+        <!-- membuat footer-->
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.footer {
+    height: 65px;
+    width: 100%;
+    background-color: darkslategray;
+    position: fixed;
+    z-index: 10;
+}
+
+.footer-logo {
+    text-align: center;
+    font-family: Lucida-Grande;
+}
+
+.footer-list li {
+    text-align: center;
+    color: #ff000;
+    font-family: Lucida-Grande;
+}
