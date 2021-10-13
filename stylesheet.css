@@ -37,8 +37,24 @@ a {
     margin-bottom: 3px;
 }
 
+.detail {
+    background-color: #239b76;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
 .btn-wrapper {
     margin: 20px 0;
+}
+
+.btn:hover {
+    opacity: 1;
 }
 
 header {
@@ -74,5 +90,32 @@ header {
     padding: 0 25px;
     color: white;
     display: block;
+}
+
+.contents {
+    height: 500px;
+    margin-top: 100px;
+  }
+  
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.contents p {
+    margin-left: 50px;
+}
+
+.contents li {
+    margin-left: 50px;
+}
+
+.ilustration img {
+    float: right;
+    width: 20%;
+    height: 10%;
 }
 
