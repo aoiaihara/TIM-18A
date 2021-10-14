@@ -9,7 +9,7 @@ a {
 
 .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-image: url(/Tim\ 18A.png);
     background-size: cover;
     color: white;
     text-align: center;
@@ -93,7 +93,7 @@ header {
 }
 
 .contents {
-    height: 500px;
+    height: 400px;
     margin-top: 100px;
   }
   
@@ -107,10 +107,12 @@ header {
 
 .contents p {
     margin-left: 50px;
+    font-size: 20px;
 }
 
 .contents li {
     margin-left: 50px;
+    font-size: 20px;
 }
 
 .ilustration img {
@@ -119,3 +121,60 @@ header {
     height: 10%;
 }
 
+.contact-form {
+    padding-top: 50px;
+    background-color: rgb(102, 187, 187);
+}
+
+input, textarea {
+    border: 1px solid ;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 50px ;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0 7px darkslategray;
+    float: left;
+}
+  
+.message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.contact-form p {
+    margin-left: 50px;
+}
+
+footer {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(25, 61, 61);
+    position: fixed;
+    z-index: 10;
+}
+
+.footer-logo {
+    text-align: center;
+    font-family: 'Lucida Grande';
+}
+
+.footer-list li {
+    text-align: center;
+    font-family: 'Lucida Grande';
+}
